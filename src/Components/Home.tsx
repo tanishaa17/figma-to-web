@@ -42,7 +42,7 @@ export const Home = () => {
         }}
       >
         <h1>WeWork + SalesForce</h1>
-        <button>Publish/Share</button>
+        <button style={{ backgroundColor: "#00B686", border: "none", color: "#FFFFFF", width: "147px", height: "40px", borderRadius: "5px" }}>Publish/Share</button>
       </div>
       <div id="profileDiv">
         <img
@@ -96,13 +96,42 @@ export const Home = () => {
             gap: "8px",
           }}
         >
-          <button>Basic Info</button>
-          <button>Files</button>
-          <button>Mutual Action Plan</button>
-          <button>Contacts</button>
+          <button style={{
+            color: "#00B686",
+            border: "1px solid #BDC3C2",
+            fontWeight: "600",
+            height: "30px",
+            borderRadius: "3px"
+          }}>Basic Info</button>
+          <button style={{
+            color: "#657372",
+            border: "1px solid #BDC3C2",
+            fontWeight: "600",
+            height: "30px",
+            borderRadius: "3px"
+          }}>Files</button>
+          <button style={{
+            color: "#657372",
+            border: "1px solid #BDC3C2",
+            fontWeight: "600",
+            height: "30px",
+            borderRadius: "3px"
+          }}>Mutual Action Plan</button>
+          <button style={{
+            color: "#657372",
+            border: "1px solid #BDC3C2",
+            fontWeight: "600",
+            height: "30px",
+            borderRadius: "3px"
+          }}>Contacts</button>
         </div>
         <div style={{ position: "absolute", left: "1270px", width: "200px" }}>
-          <button>Internal Actions</button>
+          <button style={{
+            color: "#657372",
+            border: "1px solid #BDC3C2",
+            fontWeight: "600",
+            height: "30px"
+          }}>Internal Actions</button>
         </div>
       </div>
       <div
@@ -119,9 +148,10 @@ export const Home = () => {
         <div
           style={{
             width: "198px",
+            position: "absolute"
           }}
         >
-          <ul style={{ listStyleType: "none", float: "left" }}>
+          <ul style={{ listStyleType: "none", color: "#7B8786" }}>
             <h3>Overview</h3>
             <hr />
             <li>Welcome</li> <hr />
@@ -144,6 +174,7 @@ export const Home = () => {
                 left: "235px",
                 top: 0,
                 width: "150px",
+                color: "#233735"
               }}
             >
               Company Profile
@@ -165,8 +196,8 @@ export const Home = () => {
               top: "70px",
             }}
           >
-            <img src="/assets/Images/img2.jpg" alt="" />
-            <img src="/assets/Images/msg_share.jpg" alt="" />
+            <img src="/assets/Images/img2.jpg" alt="img2" width="1195px" />
+            <img src="/assets/Images/msg_share.svg" alt="" />
           </div>
         </div>
       </div>
