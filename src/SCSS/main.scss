@@ -5,11 +5,13 @@
 .navDivLeft {
   @include flexProps;
 }
+
 .navDivRight {
   display: flex;
   align-items: center;
   gap: 20px;
 }
+
 .headingBelowNav {
   @include flexProps;
   button {
@@ -17,12 +19,14 @@
     width: 147px;
   }
 }
+
 .profileDiv {
   img:nth-child(2) {
     @include positions(101px, 289px);
     border-radius: 10px;
   }
 }
+
 .headingDiv {
   @include positions(null, 400px);
   color: #233735;
@@ -32,6 +36,7 @@
     @include positions(1170px, null);
   }
 }
+
 .headersDiv {
   display: flex;
   align-items: center;
@@ -48,18 +53,44 @@
       }
     }
   }
+  .headersDivRight {
+    @include positions(1270px, null);
+    width: 200px;
+    button {
+      @include buttonProps(null, #657372, 1px solid #bdc3c2, 3px, 30px);
+      font-weight: 600;
+    }
+  }
 }
-// .headersDiv {
-//   .headersDivLeft {
-//     display: flex;
-//     gap: 8px;
-//     button {
-//
-//
-//       }
-//     }
-//   }
 
-//
-//   display: flex;
-// }
+.mainDiv {
+  @include positions(31px, 555px);
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 10px;
+
+  .overview {
+    width: 198px;
+    position: absolute;
+    ul {
+      list-style-type: none;
+      color: #7b8786;
+    }
+  }
+
+  .companyProfile {
+    display: flex;
+    align-items: center;
+    h3 {
+      @include positions(235px, 0);
+      width: 150px;
+      color: #233735;
+    }
+    img {
+      @include positions(1290px, 0);
+    }
+  }
+  .msgShareBtn {
+    @include positions(230px, 70px);
+  }
+}

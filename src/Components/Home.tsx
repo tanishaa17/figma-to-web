@@ -47,33 +47,14 @@ export const Home = () => {
           <button>Mutual Action Plan</button>
           <button>Contacts</button>
         </div>
-        <div style={{ position: "absolute", left: "1270px", width: "200px" }}>
-          <button style={{
-            color: "#657372",
-            border: "1px solid #BDC3C2",
-            fontWeight: "600",
-            height: "30px"
-          }}>Internal Actions</button>
+        <div className="headersDivRight">
+          <button>Internal Actions</button>
         </div>
       </div>
       <div
-        className="mainDiv"
-        style={{
-          position: "absolute",
-          left: "31px",
-          top: "555px",
-          backgroundColor: "#FFFFFF",
-          borderRadius: "10px",
-          display: "flex",
-        }}
-      >
-        <div
-          style={{
-            width: "198px",
-            position: "absolute"
-          }}
-        >
-          <ul style={{ listStyleType: "none", color: "#7B8786" }}>
+        className="mainDiv">
+        <div className="overview">
+          <ul>
             <h3>Overview</h3>
             <hr />
             <li>Welcome</li> <hr />
@@ -84,40 +65,15 @@ export const Home = () => {
           </ul>
         </div>
         <div>
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-            }}
-          >
-            <h3
-              style={{
-                position: "absolute",
-                left: "235px",
-                top: 0,
-                width: "150px",
-                color: "#233735"
-              }}
-            >
+          <div className='companyProfile'>
+            <h3>
               Company Profile
             </h3>
             <img
               src="/assets/Images/Group 1000003477.svg"
-              alt=""
-              style={{
-                position: "absolute",
-                left: "1290px",
-                top: 0,
-              }}
-            />
+              alt="" />
           </div>
-          <div
-            style={{
-              position: "absolute",
-              left: "230px",
-              top: "70px",
-            }}
-          >
+          <div className='msgShareBtn'>
             <img src="/assets/Images/img2.svg" alt="img2" width="1195px" />
             <img src="/assets/Images/msg_share.svg" alt="" />
           </div>

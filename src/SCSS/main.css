@@ -67,4 +67,54 @@
   border: 1px solid #bdc3c2;
   border-radius: 3px;
   height: 30px;
+}
+.headersDiv .headersDivRight {
+  position: absolute;
+  left: 1270px;
+  width: 200px;
+}
+.headersDiv .headersDivRight button {
+  color: #657372;
+  border: 1px solid #bdc3c2;
+  border-radius: 3px;
+  height: 30px;
+  font-weight: 600;
+}
+
+.mainDiv {
+  position: absolute;
+  left: 31px;
+  top: 555px;
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.mainDiv .overview {
+  width: 198px;
+  position: absolute;
+}
+.mainDiv .overview ul {
+  list-style-type: none;
+  color: #7b8786;
+}
+.mainDiv .companyProfile {
+  display: flex;
+  align-items: center;
+}
+.mainDiv .companyProfile h3 {
+  position: absolute;
+  left: 235px;
+  top: 0;
+  width: 150px;
+  color: #233735;
+}
+.mainDiv .companyProfile img {
+  position: absolute;
+  left: 1290px;
+  top: 0;
+}
+.mainDiv .msgShareBtn {
+  position: absolute;
+  left: 230px;
+  top: 70px;
 }/*# sourceMappingURL=main.css.map */
