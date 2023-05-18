@@ -1,0 +1,27 @@
+$breakpoint-small: 480px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 1024px;
+
+@mixin respond($breakpoint) {
+  @media only screen and (max-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin flexProps {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin positions($left, $top) {
+  position: absolute;
+  left: $left;
+  top: $top;
+}
+@mixin buttonProps($bgColor, $color, $border, $borderRadius, $height) {
+  background-color: $bgColor;
+  color: $color;
+  border: $border;
+  border-radius: $borderRadius;
+  height: $height;
+}

@@ -1,1 +1,45 @@
-/*# sourceMappingURL=main.css.map */
+.navDiv,
+.navDivLeft {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navDivRight {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.headingBelowNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headingBelowNav button {
+  background-color: #00b686;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 147px;
+}
+
+.profileDiv img:nth-child(2) {
+  position: absolute;
+  left: 101px;
+  top: 289px;
+  border-radius: 10px;
+}
+
+.headingDiv {
+  position: absolute;
+  top: 400px;
+  color: #233735;
+  display: flex;
+  align-items: center;
+}
+.headingDiv img {
+  position: absolute;
+  left: 1170px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,50 @@
+@import "Pages/mixins";
+@import "Pages/variables";
+
+.navDiv,
+.navDivLeft {
+  @include flexProps;
+}
+.navDivRight {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.headingBelowNav {
+  @include flexProps;
+  button {
+    @include buttonProps(#00b686, #ffffff, none, 5px, 40px);
+    width: 147px;
+  }
+}
+.profileDiv {
+  img:nth-child(2) {
+    @include positions(101px, 289px);
+    border-radius: 10px;
+  }
+}
+.headingDiv {
+  @include positions(null, 400px);
+  color: #233735;
+  display: flex;
+  align-items: center;
+  img {
+    @include positions(1170px, null);
+  }
+}
+
+// .headersDiv {
+//   .headersDivLeft {
+//     display: flex;
+//     gap: 8px;
+//     button {
+//       @include buttonProps(null, #657372, 1px solid #bdc3c2, 3px, 30px);
+//       &:nth-child(1) {
+//         @include buttonProps(null, #00b686);
+//       }
+//     }
+//   }
+
+//   @include positions(null, 475px);
+//   display: flex;
+// }
