@@ -32,19 +32,34 @@
     @include positions(1170px, null);
   }
 }
-
+.headersDiv {
+  display: flex;
+  align-items: center;
+  @include positions(null, 475px);
+  .headersDivLeft {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    button {
+      @include buttonProps(null, #657372, 1px solid #bdc3c2, 3px, 30px);
+      font-weight: 600;
+      &:nth-child(1) {
+        @include buttonProps(null, #00b686, 1px solid #bdc3c2, 3px, 30px);
+      }
+    }
+  }
+}
 // .headersDiv {
 //   .headersDivLeft {
 //     display: flex;
 //     gap: 8px;
 //     button {
-//       @include buttonProps(null, #657372, 1px solid #bdc3c2, 3px, 30px);
-//       &:nth-child(1) {
-//         @include buttonProps(null, #00b686);
+//
+//
 //       }
 //     }
 //   }
 
-//   @include positions(null, 475px);
+//
 //   display: flex;
 // }

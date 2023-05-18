@@ -40,21 +40,14 @@ export const Home = () => {
           alt="action plan"
         />
       </div>
-      <div
-        className="headersDiv">
-        <div className="headersDivLeft"
-          style={{
-            display: "flex",
-            alignItems: "center",
-            gap: "8px",
-          }}
-        >
+      <div className="headersDiv">
+        <div className="headersDivLeft">
           <button>Basic Info</button>
-          <button >Files</button>
-          <button >Mutual Action Plan</button>
-          <button >Contacts</button>
+          <button>Files</button>
+          <button>Mutual Action Plan</button>
+          <button>Contacts</button>
         </div>
-        <div className="headersDivRight" style={{ position: "absolute", left: "1270px", width: "200px" }}>
+        <div style={{ position: "absolute", left: "1270px", width: "200px" }}>
           <button style={{
             color: "#657372",
             border: "1px solid #BDC3C2",
